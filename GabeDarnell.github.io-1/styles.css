@@ -1,0 +1,49 @@
+body
+{
+    background-color: rgb(54, 44, 44);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+    text-align: center;
+    color: gainsboro;
+}
+
+.projects { 
+    display:flex; 
+    flex-wrap:wrap; 
+} 
+
+.project {
+width: 30%;
+margin: 10px;
+padding: 20px 10px;
+background: rgb(109, 3, 3);
+border-radius: 25%;
+}
+
+.about
+{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.about p 
+{
+    width:50%;
+    text-align: center;
+    margin: auto;
+    line-height: 125%;
+}
+
+.about img 
+{
+    width: 150px;
+    height: 200px;
+    border-radius: 25%;
+    border: 2px solid rgb(126, 14, 201);
+}
